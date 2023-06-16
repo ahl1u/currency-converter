@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>currency converter</title>
+        <link rel="stylesheet" type="text/css" href="static/css/currency.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Currency converter</h1>
+        <form id="currency-converter">
+            <div class="selectors">
+                <div class="form-input">
+                    <label for="sourceCurrency">from:</label>
+                    <select id="sourceCurrency">
+                        <option value="USD">USD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="JPY">JPY</option>
+                        <option value="CNY">CNY</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label for="sourceCurrency">to:</label>
+                    <select id="targetCurrency">  
+                        <option value="USD">USD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="JPY">JPY</option>
+                        <option value="CNY">CNY</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                </div>
+
+            </div>
+                <input type="number" id="amount" placeholder="Enter amount">
+                <button type="button" onclick="convert()">Convert</button>
+            <script src="static/js/currency.js"></script>
+        </form>
+        <div class="result-container">
+            <h2>Result:</h2>
+            <div id="result"></div>
+        </div>
+    </body>
+</html>

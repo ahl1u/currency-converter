@@ -1,0 +1,45 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.result-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+.result-container h2 {
+    margin: 0; 
+    width: 10;
+    font-size: 12pt;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    margin-bottom: 5px;
+}
+
+.form-input label {
+    margin-right: 2px;
+
+}
+
+#sourceCurrency{
+    margin-right: 5px;
+}
+
+h1{
+    text-size-adjust: 50pt;
+}
