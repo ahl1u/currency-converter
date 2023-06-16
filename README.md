@@ -1,5 +1,5 @@
 # Currency Converter
-A simple web application that allows users to convert currencies using exchange rates from the Fixer.io API.
+A simple web application that allows users to convert currencies using exchange rates from the Fixer.io RESTful API.
 
 # Features
 Select source and target currencies from dropdown menus.
